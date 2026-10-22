@@ -1,0 +1,13 @@
+# The paper's EXCISE environment used Python 3.10, CUDA 13,
+# PyTorch 2.11.0, Transformers 5.14.1, and NumPy 2.2.6.
+# EXCISE evaluation and data download
+torch==2.11.0
+transformers==5.14.1
+numpy==2.2.6
+accelerate>=1.1.0
+huggingface_hub>=1.5.0,<2.0
+
+# Experimental data preparation
+vllm==0.24.0
+kernels>=0.15.2,<0.16
+triton>=3.4.0
