@@ -1,5 +1,7 @@
 # EXCISE: Locating and Excising Distracting Sentences in Medical Question Answering
 
+Paper: [arXiv:2610.35558](https://arxiv.org/abs/2610.35558)
+
 ## Installation
 
 ```bash
@@ -45,6 +47,20 @@ For input formats, model settings, and evaluation options, see the [evaluation g
 | [`medqa_td/`](medqa_td/README.md) | Rebuilding the experimental data |
 
 Released data: [MedQA-TD](https://huggingface.co/datasets/yrhong/MedQA-TD). Rebuilding it is optional.
+
+## Citation
+
+```bibtex
+@misc{hong2026exciselocatingexcisingdistracting,
+      title={EXCISE: Locating and Excising Distracting Sentences in Medical Question Answering}, 
+      author={Yerim Hong and Sohyun Son and Heeseung Chung and Mujeen Sung},
+      year={2026},
+      eprint={2610.35558},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2610.35558}, 
+}
+```
 
 ## License
 
